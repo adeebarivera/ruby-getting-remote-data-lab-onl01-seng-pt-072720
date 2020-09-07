@@ -13,6 +13,6 @@ class GetRequester
 
 end
  
-programs = GetRequester.new.get_response_body
-puts programs
+parse_jason = GetRequester.new.get_response_body
+puts parse_jason
 
