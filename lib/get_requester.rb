@@ -10,6 +10,6 @@ class GetRequester
  
 end
  
-programs = SetRequester.new.get_response_body
+programs = GetRequester.new.get_response_body
 puts programs
  
