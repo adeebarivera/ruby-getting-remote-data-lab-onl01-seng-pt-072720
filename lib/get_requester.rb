@@ -10,10 +10,7 @@ class GetRequester
     response.body
   end
   
-  def parse_json
-    
-  end
- 
+
 end
  
 programs = GetRequester.new.get_response_body
