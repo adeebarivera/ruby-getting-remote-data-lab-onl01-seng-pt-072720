@@ -1,4 +1,4 @@
-class GetRequester
+class SetRequester
  
   URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
  
@@ -10,6 +10,6 @@ class GetRequester
  
 end
  
-programs = GetRequester.new.get_response_body
+programs = SetRequester.new.get_response_body
 puts programs
  
