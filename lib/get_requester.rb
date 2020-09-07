@@ -19,3 +19,4 @@ end
 parse_jason = GetRequester.new.get_response_body
 puts parse_jason
 
+
